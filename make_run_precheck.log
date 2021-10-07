@@ -1,0 +1,80 @@
+cd /home/cmaier/EDA/precheck && \
+docker run -e INPUT_DIRECTORY=/home/cmaier/EDA/caravel_user_project_analog -e PDK_ROOT=/home/cmaier/EDA/OpenLane/pdks -e CARAVEL_ROOT=/home/cmaier/EDA/caravel_user_project_analog/caravel -v /home/cmaier/EDA/precheck:/home/cmaier/EDA/precheck -v /home/cmaier/EDA/caravel_user_project_analog:/home/cmaier/EDA/caravel_user_project_analog -v /home/cmaier/EDA/OpenLane/pdks:/home/cmaier/EDA/OpenLane/pdks -v /home/cmaier/EDA/caravel_user_project_analog/caravel:/home/cmaier/EDA/caravel_user_project_analog/caravel \
+-u 1000:1000 efabless/mpw_precheck:latest bash -c "cd /home/cmaier/EDA/precheck ; python3 mpw_precheck.py --pdk_root /home/cmaier/EDA/OpenLane/pdks --input_directory /home/cmaier/EDA/caravel_user_project_analog --caravel_root /home/cmaier/EDA/caravel_user_project_analog/caravel"
+{{EXTRACTING GDS}} Extracting GDS files in: /home/cmaier/EDA/caravel_user_project_analog
+MPW Precheck is running on: user_analog_project_wrapper.gds: d4108b3d11a0101155fc92d37ddb00f41ecf19c7 ...
+MPW Precheck is using: KLayout: v0.27.3 | Magic: v8.3.196 ...
+MPW Precheck is using: Open PDKs: 6c05bc4 | Skywater PDK: c094b6e ...
+{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs'
+{{PRECHECK SEQUENCE}} Precheck will run the following checks: License Yaml Manifest Makefile Default Documentation Consistency XOR Magic DRC Klayout FEOL Klayout BEOL Klayout Offgrid Klayout Metal Minimum Clear Area Density Klayout Pin Label Purposes Overlapping Drawing Klayout ZeroArea
+{{STEP UPDATE}} Executing Check 1 of 15: License
+An approved LICENSE (Apache-2.0) was found in /home/cmaier/EDA/caravel_user_project_analog.
+{{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+An approved LICENSE (Apache-2.0) was found in /home/cmaier/EDA/caravel_user_project_analog.
+{{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+{{SPDX COMPLIANCE CHECK PASSED}} Project is compliant with the SPDX Standard
+{{STEP UPDATE}} Executing Check 2 of 15: Yaml
+{{YAML CHECK PASSED}} YAML file valid.
+{{STEP UPDATE}} Executing Check 3 of 15: Manifest
+Caravel version matches, for the full report check: /home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs/manifest_check.log
+{{MANIFEST CHECKS PASSED}} Manifest Checks Passed. Caravel version matches.
+{{STEP UPDATE}} Executing Check 4 of 15: Makefile
+{{MAKEFILE CHECK PASSED}} Makefile valid.
+{{STEP UPDATE}} Executing Check 5 of 15: Default
+The provided 'README.md' is identical to the default 'README.md'
+{{README DEFAULT CHECK FAILED}} Project 'README.md' was not modified and is identical to the default 'README.md'
+The parameter organization in the provided 'info.yaml' is identical to the one in the default 'info.yaml'
+The parameter organization_url in the provided 'info.yaml' is identical to the one in the default 'info.yaml'
+The parameter owner in the provided 'info.yaml' is identical to the one in the default 'info.yaml'
+{{PROJECT CONFIG DEFAULT CHECK FAILED}} Project 'info.yaml' was not modified and is identical to the default 'info.yaml'
+The provided user_analog_project_wrapper.gds is identical to the default file user_analog_project_wrapper.gds
+{{CONTENT DEFAULT CHECK FAILED}} Project 'gds' was not modified and is identical to the default 'gds'
+{{STEP UPDATE}} Executing Check 6 of 15: Documentation
+{{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+{{STEP UPDATE}} Executing Check 7 of 15: Consistency
+Trying to get file https://raw.githubusercontent.com/efabless/caravel/master/verilog/rtl/__user_analog_project_wrapper.v
+Got file https://raw.githubusercontent.com/efabless/caravel/master/verilog/rtl/__user_analog_project_wrapper.v
+Trying to get file https://raw.githubusercontent.com/efabless/caravel/master/verilog/rtl/defines.v
+Got file https://raw.githubusercontent.com/efabless/caravel/master/verilog/rtl/defines.v
+POWER CONNECTIONS CHECK PASSED: All instances in caravan are connected to power
+HIERARCHY CHECK PASSED: Module user_analog_project_wrapper is instantiated in caravan. 
+COMPLEXITY CHECK PASSED: Netlist caravan contains at least 8 instances (39 instances). 
+MODELING CHECK PASSED: Netlist caravan is structural.
+SUBMODULE HOOKS CHECK PASSED: All module ports for user_analog_project_wrapper are correctly connected in the top level netlist caravan.
+{{NETLIST CONSISTENCY CHECK PASSED}} caravan netlist passed all consistency checks.
+POWER CONNECTIONS CHECK PASSED: All instances in user_analog_project_wrapper are connected to power
+PORTS CHECK PASSED: Netlist user_analog_project_wrapper ports match the golden wrapper ports
+COMPLEXITY CHECK PASSED: Netlist user_analog_project_wrapper contains at least 1 instances (1 instances). 
+MODELING CHECK PASSED: Netlist user_analog_project_wrapper is structural.
+LAYOUT CHECK PASSED: The GDS layout for user_analog_project_wrapper matches the provided structural netlist.
+{{NETLIST CONSISTENCY CHECK PASSED}} user_analog_project_wrapper netlist passed all consistency checks.
+{{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+{{STEP UPDATE}} Executing Check 8 of 15: XOR
+Trying to get file https://raw.githubusercontent.com/efabless/caravel/master/gds/user_analog_project_wrapper_empty.gds.gz
+Got file https://raw.githubusercontent.com/efabless/caravel/master/gds/user_analog_project_wrapper_empty.gds.gz
+{XOR CHECK UPDATE} Total XOR differences: 0, for more details view /home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/outputs/user_analog_project_wrapper.xor.gds
+{{XOR CHECK PASSED}} The GDS file has no XOR violations.
+{{STEP UPDATE}} Executing Check 9 of 15: Magic DRC
+Found 0 violations
+0 DRC violations
+{{MAGIC DRC CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 10 of 15: Klayout FEOL
+No DRC Violations found
+{{Klayout FEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 11 of 15: Klayout BEOL
+No DRC Violations found
+{{Klayout BEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 12 of 15: Klayout Offgrid
+No DRC Violations found
+{{Klayout Offgrid CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 13 of 15: Klayout Metal Minimum Clear Area Density
+No DRC Violations found
+{{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 14 of 15: Klayout Pin Label Purposes Overlapping Drawing
+No DRC Violations found
+{{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{STEP UPDATE}} Executing Check 15 of 15: Klayout ZeroArea
+No DRC Violations found
+{{Klayout ZeroArea CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs'
+{{FAILURE}} 1 Check(s) Failed: ['Default'] !!!

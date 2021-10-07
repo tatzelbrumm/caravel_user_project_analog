@@ -1,0 +1,71 @@
+latest: Pulling from efabless/mpw_precheck
+2d473b07cdd5: Already exists
+b588a871a5bf: Pulling fs layer
+4abcf055e855: Pulling fs layer
+7d0e34615c89: Pulling fs layer
+32bde65dae5b: Pulling fs layer
+93f50122a8a1: Pulling fs layer
+0328b1e6ad8a: Pulling fs layer
+0328b1e6ad8a: Waiting
+f0dee00425b7: Pulling fs layer
+f0dee00425b7: Waiting
+c63bc98d8420: Pulling fs layer
+0235e277089d: Pulling fs layer
+0235e277089d: Waiting
+572c5748f2c0: Pulling fs layer
+572c5748f2c0: Waiting
+b1fe1fc689fe: Pulling fs layer
+b1fe1fc689fe: Waiting
+0c51252f2d30: Pulling fs layer
+3dbb54fc5e60: Pulling fs layer
+3dbb54fc5e60: Waiting
+4727b11d7b38: Pulling fs layer
+5767658522ba: Pulling fs layer
+5767658522ba: Waiting
+4abcf055e855: Verifying Checksum
+4abcf055e855: Download complete
+32bde65dae5b: Verifying Checksum
+32bde65dae5b: Download complete
+93f50122a8a1: Verifying Checksum
+93f50122a8a1: Download complete
+7d0e34615c89: Verifying Checksum
+7d0e34615c89: Download complete
+f0dee00425b7: Verifying Checksum
+f0dee00425b7: Download complete
+c63bc98d8420: Verifying Checksum
+c63bc98d8420: Download complete
+0328b1e6ad8a: Verifying Checksum
+0328b1e6ad8a: Download complete
+572c5748f2c0: Verifying Checksum
+572c5748f2c0: Download complete
+0235e277089d: Verifying Checksum
+0235e277089d: Download complete
+b1fe1fc689fe: Verifying Checksum
+b1fe1fc689fe: Download complete
+3dbb54fc5e60: Verifying Checksum
+3dbb54fc5e60: Download complete
+4727b11d7b38: Verifying Checksum
+4727b11d7b38: Download complete
+b588a871a5bf: Download complete
+5767658522ba: Verifying Checksum
+5767658522ba: Download complete
+0c51252f2d30: Verifying Checksum
+0c51252f2d30: Download complete
+b588a871a5bf: Pull complete
+4abcf055e855: Pull complete
+7d0e34615c89: Pull complete
+32bde65dae5b: Pull complete
+93f50122a8a1: Pull complete
+0328b1e6ad8a: Pull complete
+f0dee00425b7: Pull complete
+c63bc98d8420: Pull complete
+0235e277089d: Pull complete
+572c5748f2c0: Pull complete
+b1fe1fc689fe: Pull complete
+0c51252f2d30: Pull complete
+3dbb54fc5e60: Pull complete
+4727b11d7b38: Pull complete
+5767658522ba: Pull complete
+Digest: sha256:4cce4173a99a7fc7ca52c39655f82912154f450c89d352c1b086cd627dbd491a
+Status: Downloaded newer image for efabless/mpw_precheck:latest
+docker.io/efabless/mpw_precheck:latest

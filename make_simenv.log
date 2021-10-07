@@ -1,0 +1,55 @@
+docker pull efabless/dv_setup:latest
+latest: Pulling from efabless/dv_setup
+da7391352a9b: Pulling fs layer
+14428a6d4bcd: Pulling fs layer
+2c2d948710f2: Pulling fs layer
+063de50bfcf9: Pulling fs layer
+b0b2118933a4: Pulling fs layer
+aeffc0a613cf: Pulling fs layer
+9d0817075d38: Pulling fs layer
+e1b233be0909: Pulling fs layer
+d7485a0dc5f7: Pulling fs layer
+c1bc6cd06fda: Pulling fs layer
+54add266ba19: Pulling fs layer
+063de50bfcf9: Waiting
+b0b2118933a4: Waiting
+aeffc0a613cf: Waiting
+9d0817075d38: Waiting
+e1b233be0909: Waiting
+d7485a0dc5f7: Waiting
+c1bc6cd06fda: Waiting
+54add266ba19: Waiting
+2c2d948710f2: Verifying Checksum
+2c2d948710f2: Download complete
+14428a6d4bcd: Download complete
+b0b2118933a4: Verifying Checksum
+b0b2118933a4: Download complete
+da7391352a9b: Download complete
+da7391352a9b: Pull complete
+14428a6d4bcd: Pull complete
+2c2d948710f2: Pull complete
+063de50bfcf9: Verifying Checksum
+063de50bfcf9: Download complete
+9d0817075d38: Verifying Checksum
+9d0817075d38: Download complete
+063de50bfcf9: Pull complete
+b0b2118933a4: Pull complete
+e1b233be0909: Verifying Checksum
+e1b233be0909: Download complete
+c1bc6cd06fda: Verifying Checksum
+c1bc6cd06fda: Download complete
+54add266ba19: Verifying Checksum
+54add266ba19: Download complete
+aeffc0a613cf: Verifying Checksum
+aeffc0a613cf: Download complete
+aeffc0a613cf: Pull complete
+9d0817075d38: Pull complete
+e1b233be0909: Pull complete
+d7485a0dc5f7: Verifying Checksum
+d7485a0dc5f7: Download complete
+d7485a0dc5f7: Pull complete
+c1bc6cd06fda: Pull complete
+54add266ba19: Pull complete
+Digest: sha256:6016348210ed5610a4b858008db0ed7e85f99f32b7f633d84329a8ec9dc81e4a
+Status: Downloaded newer image for efabless/dv_setup:latest
+docker.io/efabless/dv_setup:latest
