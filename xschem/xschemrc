@@ -273,5 +273,5 @@ lappend tcl_files /home/cmaier/EDA/OpenLane/pdks/sky130A/libs.tech/xschem/script
 ###########################################################################
 #set SKYWATER_MODELS ~/EDA/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest
 #set SKYWATER_STDCELLS ~/EDA/skywater-pdk/libraries/sky130_fd_sc_hd/latest
-set SKYWATER_MODELS ~/EDA/OpenLane/pdks/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest
-set SKYWATER_STDCELLS ~/EDA/OpenLane/pdks/skywater-pdk/libraries/sky130_fd_sc_hd/latest
+set SKYWATER_MODELS ~/EDA/OpenLane/pdks/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models
+set SKYWATER_STDCELLS ~/EDA/OpenLane/pdks/skywater-pdk/libs.ref/sky130_fd_sc_hvl/spice

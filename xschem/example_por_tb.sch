@@ -37,8 +37,8 @@ C {devices/opin.sym} 180 -50 0 0 {name=p3 lab=porb_h}
 C {devices/opin.sym} 180 -20 0 0 {name=p4 lab=porb_l}
 C {devices/opin.sym} 180 10 0 0 {name=p5 lab=por_l}
 C {devices/code_shown.sym} -470 140 0 0 {name=s1 only_toplevel=false value=".param mc_mm_switch=0
-.lib ~/EDA/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.include ~/EDA/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"}
+.lib ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"}
 C {devices/code_shown.sym} -470 250 0 0 {name=s2 only_toplevel=false value=".control
 tran 1u 20m
 plot V(vdd3v3) V(vdd1v8) V(porb_h) V(porb_l) V(por_l)
