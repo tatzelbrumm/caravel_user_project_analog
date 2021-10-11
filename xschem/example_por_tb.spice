@@ -23,8 +23,8 @@ plot V(vdd3v3) V(vdd1v8) V(porb_h) V(porb_l) V(por_l)
 **.ends
 
 * expanding   symbol:  example_por.sym # of pins=6
-* sym_path: /home/tim/gits/caravel_user_project_analog/xschem/example_por.sym
-* sch_path: /home/tim/gits/caravel_user_project_analog/xschem/example_por.sch
+* sym_path: /home/cmaier/EDA/caravel_user_project_analog/xschem/example_por.sym
+* sch_path: /home/cmaier/EDA/caravel_user_project_analog/xschem/example_por.sch
 .subckt example_por  vdd3v3 vdd1v8 porb_h porb_l por_l vss
 *.iopin vdd3v3
 *.iopin vss
@@ -40,14 +40,14 @@ XM1 net3 net7 net5 vdd3v3 sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int((n
 XM2 net2 net3 vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1 
-XR1 net4 vdd3v3 vss sky130_fd_pr__res_xhigh_po_0p69 W=0.69 L=500 mult=1 m=1
+XR1 net4 vdd3v3 vss sky130_fd_pr__res_xhigh_po_0p69 L=500 mult=1 m=1
 XM4 net5 net6 vdd3v3 vdd3v3 sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
 + as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
 + nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
 XM5 net3 net3 vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.8 W=14 nf=7 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1 
-XR2 vss net4 vss sky130_fd_pr__res_xhigh_po_0p69 W=0.69 L=150 mult=1 m=1
+XR2 vss net4 vss sky130_fd_pr__res_xhigh_po_0p69 L=150 mult=1 m=1
 XM7 net2 net2 net1 vdd3v3 sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
 + as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
 + nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
@@ -69,7 +69,7 @@ XM12 net8 net1 vdd3v3 vdd3v3 sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int
 XM13 net9 net2 net8 vdd3v3 sky130_fd_pr__pfet_g5v0d10v5 L=0.8 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
 + as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
 + nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
-XR3 vss vss vss sky130_fd_pr__res_xhigh_po_0p69 W=0.69 L=25 mult=2 m=2
+XR3 vss vss vss sky130_fd_pr__res_xhigh_po_0p69 L=25 mult=2 m=2
 x2 net10 vss vss vdd3v3 vdd3v3 porb_h sky130_fd_sc_hvl__buf_8
 x3 net10 vss vss vdd1v8 vdd1v8 porb_l sky130_fd_sc_hvl__buf_8
 x4 net10 vss vss vdd1v8 vdd1v8 por_l sky130_fd_sc_hvl__inv_8
