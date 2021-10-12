@@ -87,11 +87,12 @@ C {devices/lab_pin.sym} 450 -50 0 0 {name=l4 sig_type=std_logic lab=io_oeb[26:0]
 C {devices/lab_pin.sym} 450 -70 0 0 {name=l5 sig_type=std_logic lab=io_out[26:0]}
 C {devices/bus_connect.sym} 510 -50 0 0 {name=l6 lab=io_oeb[16:15]}
 C {devices/bus_connect.sym} 600 -50 0 0 {name=l7 lab=io_oeb[12:11]}
-C {devices/code_shown.sym} 920 -130 0 0 {name=s1 only_toplevel=false 
+C {devices/code_shown.sym} 920 -130 0 0 {name=s1 only_toplevel=true 
 format="tcleval( @value )"
 value=".param mc_mm_switch=0
 .lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
-.include \\\\$::SKYWATER_STDCELLS\\\\/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
-.control
+.include \\\\$::SKYWATER_STDCELLS\\\\/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"}
+C {devices/code_shown.sym} 920 -30 0 0 {name=s2 only_toplevel=true 
+value=".control
 tran 10u 20m
 .endc"}
