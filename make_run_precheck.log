@@ -4,8 +4,8 @@ docker run -e INPUT_DIRECTORY=/home/cmaier/EDA/caravel_user_project_analog -e PD
 {{EXTRACTING GDS}} Extracting GDS files in: /home/cmaier/EDA/caravel_user_project_analog
 MPW Precheck is running on: user_analog_project_wrapper.gds: d4108b3d11a0101155fc92d37ddb00f41ecf19c7 ...
 MPW Precheck is using: KLayout: v0.27.3 | Magic: v8.3.196 ...
-MPW Precheck is using: Open PDKs: 6c05bc4 | Skywater PDK: c094b6e ...
-{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs'
+MPW Precheck is using: Open PDKs: 5cad4f8 | Skywater PDK: c094b6e ...
+{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/12_OCT_2021___21_51_21/logs'
 {{PRECHECK SEQUENCE}} Precheck will run the following checks: License Yaml Manifest Makefile Default Documentation Consistency XOR Magic DRC Klayout FEOL Klayout BEOL Klayout Offgrid Klayout Metal Minimum Clear Area Density Klayout Pin Label Purposes Overlapping Drawing Klayout ZeroArea
 {{STEP UPDATE}} Executing Check 1 of 15: License
 An approved LICENSE (Apache-2.0) was found in /home/cmaier/EDA/caravel_user_project_analog.
@@ -16,7 +16,7 @@ An approved LICENSE (Apache-2.0) was found in /home/cmaier/EDA/caravel_user_proj
 {{STEP UPDATE}} Executing Check 2 of 15: Yaml
 {{YAML CHECK PASSED}} YAML file valid.
 {{STEP UPDATE}} Executing Check 3 of 15: Manifest
-Caravel version matches, for the full report check: /home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs/manifest_check.log
+Caravel version matches, for the full report check: /home/cmaier/EDA/caravel_user_project_analog/precheck_results/12_OCT_2021___21_51_21/logs/manifest_check.log
 {{MANIFEST CHECKS PASSED}} Manifest Checks Passed. Caravel version matches.
 {{STEP UPDATE}} Executing Check 4 of 15: Makefile
 {{MAKEFILE CHECK PASSED}} Makefile valid.
@@ -52,7 +52,7 @@ LAYOUT CHECK PASSED: The GDS layout for user_analog_project_wrapper matches the 
 {{STEP UPDATE}} Executing Check 8 of 15: XOR
 Trying to get file https://raw.githubusercontent.com/efabless/caravel/master/gds/user_analog_project_wrapper_empty.gds.gz
 Got file https://raw.githubusercontent.com/efabless/caravel/master/gds/user_analog_project_wrapper_empty.gds.gz
-{XOR CHECK UPDATE} Total XOR differences: 0, for more details view /home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/outputs/user_analog_project_wrapper.xor.gds
+{XOR CHECK UPDATE} Total XOR differences: 0, for more details view /home/cmaier/EDA/caravel_user_project_analog/precheck_results/12_OCT_2021___21_51_21/outputs/user_analog_project_wrapper.xor.gds
 {{XOR CHECK PASSED}} The GDS file has no XOR violations.
 {{STEP UPDATE}} Executing Check 9 of 15: Magic DRC
 Found 0 violations
@@ -76,5 +76,5 @@ No DRC Violations found
 {{STEP UPDATE}} Executing Check 15 of 15: Klayout ZeroArea
 No DRC Violations found
 {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
-{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/02_OCT_2021___11_41_55/logs'
+{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/cmaier/EDA/caravel_user_project_analog/precheck_results/12_OCT_2021___21_51_21/logs'
 {{FAILURE}} 1 Check(s) Failed: ['Default'] !!!
