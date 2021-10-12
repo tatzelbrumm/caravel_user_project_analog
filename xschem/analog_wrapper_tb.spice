@@ -67,9 +67,12 @@ V3 io_analog[4] GND PWL(0.0 0 100u 0 5m 3.3)
  .param mc_mm_switch=0
 .lib ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .include ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
 .control
 tran 10u 20m
+plot io_out[11] io_out[12] io_out[15] io_out[16] gpio_analog[3] gpio_analog[7]
 .endc
+
 **** end user architecture code
 **.ends
 
