@@ -95,4 +95,6 @@ value=".param mc_mm_switch=0
 C {devices/code_shown.sym} 920 -30 0 0 {name=s2 only_toplevel=true 
 value=".control
 tran 10u 20m
+plot V(io_out[11]) V(io_out[12]) V(io_out[15]) V(io_out[16])
++ V(gpio_analog[3]) V(gpio_analog[7])
 .endc"}
