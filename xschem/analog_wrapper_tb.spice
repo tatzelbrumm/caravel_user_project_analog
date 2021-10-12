@@ -54,10 +54,10 @@ x1 net1 net4 GND net5 net2 net6 net7 net8 net14 net15 net16 net17 net18 net19[3]
 + io_out[10] io_out[9] io_out[8] io_out[7] io_out[6] io_out[5] io_out[4] io_out[3] io_out[2] io_out[1] io_out[0]
 + io_oeb[26] io_oeb[25] io_oeb[24] io_oeb[23] io_oeb[22] io_oeb[21] io_oeb[20] io_oeb[19] io_oeb[18] io_oeb[17]
 + io_oeb[16] io_oeb[15] io_oeb[14] io_oeb[13] io_oeb[12] io_oeb[11] io_oeb[10] io_oeb[9] io_oeb[8] io_oeb[7]
-+ io_oeb[6] io_oeb[5] io_oeb[4] io_oeb[3] io_oeb[2] io_oeb[1] io_oeb[0] gpio_analog[10] gpio_analog[9]
++ io_oeb[6] io_oeb[5] io_oeb[4] io_oeb[3] io_oeb[2] io_oeb[1] io_oeb[0] gpio_analog[17] gpio_analog[16]
++ gpio_analog[15] gpio_analog[14] gpio_analog[13] gpio_analog[12] gpio_analog[11] gpio_analog[10] gpio_analog[9]
 + gpio_analog[8] gpio_analog[7] gpio_analog[6] gpio_analog[5] gpio_analog[4] gpio_analog[3] gpio_analog[2]
-+ gpio_analog[1] gpio_analog[0] gpio_analog[10] gpio_analog[9] gpio_analog[8] gpio_analog[7] gpio_analog[6]
-+ gpio_analog[5] gpio_analog[4] net12[17] net12[16] net12[15] net12[14] net12[13] net12[12] net12[11] net12[10]
++ gpio_analog[1] gpio_analog[0] net12[17] net12[16] net12[15] net12[14] net12[13] net12[12] net12[11] net12[10]
 + net12[9] net12[8] net12[7] net12[6] net12[5] net12[4] net12[3] net12[2] net12[1] net12[0] net3[10] net3[9]
 + net3[8] net3[7] net3[6] net3[5] net3[4] net3[3] net3[2] net3[1] net3[0] io_clamp_high[2] io_clamp_high[1]
 + io_clamp_high[0] GND GND GND net26 net13[2] net13[1] net13[0] user_analog_project_wrapper
@@ -70,7 +70,8 @@ V3 io_analog[4] GND PWL(0.0 0 100u 0 5m 3.3)
 
 .control
 tran 10u 20m
-plot V("io_out[11]") V("io_out[12]") V("io_out[15]") V("io_out[16]")   V("gpio_analog[7]")
+plot V("io_out[11]") V("io_out[12]") V("io_out[15]") V("io_out[16]")  V("gpio_analog[3]")
++ V("gpio_analog[7]")
 .endc
 
 **** end user architecture code
