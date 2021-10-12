@@ -8,9 +8,8 @@ x1 vdd3v3 vdd1v8 porb_h porb_l por_l GND example_por
 V1 vdd3v3 GND PWL(0.0 0 100u 0 5m 3.3)
 V2 vdd1v8 GND PWL(0.0 0 300u 0 5.3m 1.8)
 **** begin user architecture code
- .param mc_mm_switch=0
-.lib ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.include ~/EDA/OpenLane/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.lib ~/EDA/OpenLane/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/EDA/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 .control
 tran 1u 20m
