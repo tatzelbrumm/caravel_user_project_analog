@@ -561,7 +561,7 @@ use sky130_fd_sc_hvl__buf_8  sky130_fd_sc_hvl__buf_8_1 $PDKPATH/libs.ref/sky130_
 timestamp 1619722500
 transform 1 0 7477 0 1 7438
 box -66 -43 1986 897
-use sky130_fd_sc_hvl__buf_8  sky130_fd_sc_hvl__buf_8_0
+use sky130_fd_sc_hvl__buf_8  sky130_fd_sc_hvl__buf_8_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
 timestamp 1619722500
 transform 1 0 8523 0 1 6404
 box -66 -43 1986 897
