@@ -2,8 +2,6 @@
 
 .subckt sky130_fd_pr__cap_mim_m3_2_W5U4AW c2_n3079_n3000# m4_n3179_n3100# VSUBS
 X0 c2_n3079_n3000# m4_n3179_n3100# sky130_fd_pr__cap_mim_m3_2 l=3e+07u w=3e+07u
-C0 c2_n3079_n3000# m4_n3179_n3100# 63.96fF
-C1 m4_n3179_n3100# VSUBS 13.89fF
 .ends
 
 .subckt sky130_fd_sc_hvl__buf_8 A VGND VNB VPB VPWR X
@@ -29,12 +27,6 @@ X18 VGND a_45_443# X VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=
 X19 X a_45_443# VGND VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=750000u l=500000u
 X20 VPWR a_45_443# X VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=500000u
 X21 a_45_443# A VPWR VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=500000u
-C0 VPB VPWR 4.65fF
-C1 X a_45_443# 2.04fF
-C2 X VPWR 2.98fF
-C3 VPWR a_45_443# 2.79fF
-C4 X VGND 2.09fF
-C5 VPB VNB 3.00fF
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ a_n683_n200# a_n189_n297# a_29_n297# a_189_n200#
@@ -49,7 +41,6 @@ X4 a_n465_n200# a_n625_n297# a_n683_n200# w_n1101_n497# sky130_fd_pr__pfet_g5v0d
 X5 a_625_n200# a_465_n297# a_407_n200# w_n1101_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
 X6 a_n29_n200# a_n189_n297# a_n247_n200# w_n1101_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
 X7 a_n683_n200# a_n843_n297# a_n901_n200# w_n1101_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
-C0 w_n1101_n497# VSUBS 6.53fF
 .ends
 
 .subckt sky130_fd_pr__nfet_g5v0d10v5_TGFUGS a_n792_n200# a_298_n200# a_516_n200# a_734_n200#
@@ -107,7 +98,6 @@ X27 a_2440_n2932# a_2440_2500# w_n5446_n3098# sky130_fd_pr__res_xhigh_po_0p69 l=
 .subckt sky130_fd_pr__pfet_g5v0d10v5_3YBPVB a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#
 + VSUBS
 X0 a_80_n200# a_n80_n297# a_n138_n200# w_n338_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
-C0 w_n338_n497# VSUBS 2.00fF
 .ends
 
 .subckt sky130_fd_sc_hvl__schmittbuf_1 A VGND VNB VPB VPWR X
@@ -121,7 +111,6 @@ X6 a_231_463# A a_117_181# VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps
 X7 a_231_463# a_117_181# a_78_463# VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=750000u l=500000u
 X8 a_217_207# A a_117_181# VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=420000u l=500000u
 X9 a_78_463# VGND VNB sky130_fd_pr__res_generic_nd__hv w=290000u l=1.355e+06u
-C0 VPB VNB 2.88fF
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_YUHPXE a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#
@@ -139,8 +128,6 @@ X0 a_80_n200# a_n80_n288# a_n138_n200# w_n308_n458# sky130_fd_pr__nfet_g5v0d10v5
 
 .subckt sky130_fd_pr__cap_mim_m3_1_WRT4AW c1_n3036_n3000# m3_n3136_n3100# VSUBS
 X0 c1_n3036_n3000# m3_n3136_n3100# sky130_fd_pr__cap_mim_m3_1 l=3e+07u w=3e+07u
-C0 m3_n3136_n3100# c1_n3036_n3000# 15.59fF
-C1 m3_n3136_n3100# VSUBS 16.78fF
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_YEUEBV a_n792_n200# a_138_n297# a_n298_n297#
@@ -153,7 +140,6 @@ X3 a_298_n200# a_138_n297# a_80_n200# w_n992_n497# sky130_fd_pr__pfet_g5v0d10v5 
 X4 a_n138_n200# a_n298_n297# a_n356_n200# w_n992_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
 X5 a_n356_n200# a_n516_n297# a_n574_n200# w_n992_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
 X6 a_516_n200# a_356_n297# a_298_n200# w_n992_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=2e+06u l=800000u
-C0 w_n992_n497# VSUBS 5.88fF
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_YUHPBG a_n80_n297# a_80_n200# w_n338_n497# a_n138_n200#
@@ -178,10 +164,6 @@ X12 VGND A Y VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=750000u 
 X13 Y A VGND VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=750000u l=500000u
 X14 Y A VPWR VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=500000u
 X15 VPWR A Y VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=500000u
-C0 Y A 3.55fF
-C1 VPWR Y 2.88fF
-C2 VPB VPWR 3.55fF
-C3 VPB VNB 3.48fF
 .ends
 
 .subckt example_por vdd3v3 vdd1v8 vss porb_h por_l porb_l
@@ -227,27 +209,6 @@ Xsky130_fd_sc_hvl__inv_8_0 sky130_fd_sc_hvl__inv_8_0/A vss vss vdd1v8 vdd1v8 por
 + sky130_fd_sc_hvl__inv_8
 Xsky130_fd_sc_hvl__buf_8_0 sky130_fd_sc_hvl__inv_8_0/A vss vss vdd3v3 vdd3v3 porb_h
 + sky130_fd_sc_hvl__buf_8
-C0 m1_4283_8081# m1_2756_6573# 2.65fF
-C1 m1_4283_8081# vdd3v3 7.41fF
-C2 porb_l vdd1v8 2.98fF
-C3 m1_185_6573# vdd3v3 3.92fF
-C4 m1_2756_6573# vdd3v3 4.83fF
-C5 vdd3v3 sky130_fd_sc_hvl__schmittbuf_1_0/A 3.24fF
-C6 m1_502_7653# m1_185_6573# 3.20fF
-C7 m1_502_7653# vdd3v3 9.80fF
-C8 sky130_fd_sc_hvl__inv_8_0/A vss 6.76fF
-C9 m1_4283_8081# vss 2.17fF
-C10 sky130_fd_sc_hvl__schmittbuf_1_0/A vss 93.15fF
-C11 m1_502_7653# vss 4.19fF
-C12 vdd3v3 vss 49.48fF
-C13 li_9111_165# vss 2.43fF
-C14 li_7567_165# vss 2.43fF
-C15 li_6795_165# vss 2.05fF
-C16 li_6023_165# vss 2.43fF
-C17 li_4866_5813# vss 2.08fF
-C18 li_3707_165# vss 2.22fF
-C19 m1_721_6815# vss 6.82fF
-C20 vdd1v8 vss 6.59fF
 .ends
 
 .subckt user_analog_proj_example example_por_0/por_l VSUBS example_por_1/por_l example_por_0/vdd1v8
@@ -257,16 +218,6 @@ Xexample_por_0 example_por_0/vdd3v3 example_por_0/vdd1v8 VSUBS example_por_0/por
 + example_por_0/por_l example_por_0/porb_l example_por
 Xexample_por_1 example_por_1/vdd3v3 example_por_1/vdd1v8 VSUBS example_por_1/porb_h
 + example_por_1/por_l example_por_1/porb_l example_por
-C0 example_por_1/sky130_fd_sc_hvl__inv_8_0/A VSUBS 4.47fF
-C1 example_por_1/sky130_fd_sc_hvl__schmittbuf_1_0/A VSUBS 8.46fF
-C2 example_por_1/m1_502_7653# VSUBS 3.44fF
-C3 example_por_1/vdd3v3 VSUBS 33.42fF
-C4 example_por_1/vdd1v8 VSUBS 5.84fF
-C5 example_por_0/sky130_fd_sc_hvl__inv_8_0/A VSUBS 4.47fF
-C6 example_por_0/sky130_fd_sc_hvl__schmittbuf_1_0/A VSUBS 8.46fF
-C7 example_por_0/m1_502_7653# VSUBS 3.44fF
-C8 example_por_0/vdd3v3 VSUBS 33.42fF
-C9 example_por_0/vdd1v8 VSUBS 5.84fF
 .ends
 
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
@@ -375,36 +326,5 @@ C9 example_por_0/vdd1v8 VSUBS 5.84fF
 + wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i
 Xuser_analog_proj_example_0 io_out[16] vssa1 io_out[12] vccd1 vdda1 io_out[11] io_clamp_high[0]
 + gpio_analog[3] io_out[15] gpio_analog[7] vccd1 user_analog_proj_example
-C0 io_out[11] vccd1 4.44fF
-C1 io_out[11] io_out[12] 34.40fF
-C2 vssd1 gpio_analog[3] 2.31fF
-C3 gpio_analog[3] vdda1 4.44fF
-C4 vssd1 io_out[12] 2.31fF
-C5 vccd1 vdda1 26.68fF
-C6 io_out[12] vdda1 4.44fF
-C7 io_clamp_high[0] vccd1 14.05fF
-C8 gpio_analog[3] vccd1 4.44fF
-C9 io_out[11] vssd1 2.31fF
-C10 io_out[11] vdda1 4.44fF
-C11 io_out[12] vccd1 4.44fF
-C12 io_out[16] vssd1 2.65fF
-C13 io_analog[5] vssa1 -8.92fF
-C14 io_analog[6] vssa1 -9.16fF
-C15 vssd2 vssa1 -5.19fF
-C16 vdda2 vssa1 -5.19fF
-C17 io_analog[0] vssa1 -6.01fF
-C18 io_analog[2] vssa1 -5.85fF
-C19 io_analog[3] vssa1 -5.74fF
-C20 vssd1 vssa1 -1708.39fF
-C21 user_analog_proj_example_0/example_por_1/sky130_fd_sc_hvl__inv_8_0/A vssa1 4.47fF
-C22 user_analog_proj_example_0/example_por_1/sky130_fd_sc_hvl__schmittbuf_1_0/A vssa1 8.46fF
-C23 user_analog_proj_example_0/example_por_1/m1_502_7653# vssa1 3.44fF
-C24 vdda1 vssa1 569.61fF
-C25 gpio_analog[7] vssa1 -202.87fF
-C26 user_analog_proj_example_0/example_por_0/sky130_fd_sc_hvl__inv_8_0/A vssa1 4.47fF
-C27 user_analog_proj_example_0/example_por_0/sky130_fd_sc_hvl__schmittbuf_1_0/A vssa1 8.46fF
-C28 user_analog_proj_example_0/example_por_0/m1_502_7653# vssa1 3.44fF
-C29 io_clamp_high[0] vssa1 -523.53fF
-C30 vccd1 vssa1 524.10fF
 .ends
 
