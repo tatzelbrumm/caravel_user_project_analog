@@ -26,116 +26,127 @@ sky130_fd_pr__cap_mim_m3_1_WRT4AW (1)      |(no matching element)
 sky130_fd_pr__pfet_g5v0d10v5_YEUEBV (1)    |(no matching element)                      
 sky130_fd_pr__pfet_g5v0d10v5_YUHPBG (1)    |(no matching element)                      
 sky130_fd_sc_hvl__inv_8 (1)                |sky130_fd_sc_hvl__inv_8 (1)                
-c (21)                                     |(no matching element)                      
 (no matching element)                      |sky130_fd_pr__cap_mim_m3_1 (1)             
 (no matching element)                      |sky130_fd_pr__cap_mim_m3_2 (1)             
 (no matching element)                      |sky130_fd_pr__pfet_g5v0d10v5 (8)           
 (no matching element)                      |sky130_fd_pr__nfet_g5v0d10v5 (3)           
 (no matching element)                      |sky130_fd_pr__res_xhigh_po_0p69 (3)        
-Number of devices: 39 **Mismatch**         |Number of devices: 20 **Mismatch**         
+Number of devices: 18 **Mismatch**         |Number of devices: 20 **Mismatch**         
 Number of nets: 40 **Mismatch**            |Number of nets: 16 **Mismatch**            
 ---------------------------------------------------------------------------------------
+Flattening instances of sky130_fd_pr__cap_mim_m3_1_WRT4AW in cell example_por makes a better match
+Flattening instances of sky130_fd_pr__pfet_g5v0d10v5_3YBPVB in cell example_por makes a better match
 Flattening instances of sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC in cell example_por makes a better match
 Flattening instances of sky130_fd_pr__pfet_g5v0d10v5_YUHPBG in cell example_por makes a better match
-Flattening instances of sky130_fd_pr__pfet_g5v0d10v5_YUHPXE in cell example_por makes a better match
+Flattening instances of sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ in cell example_por makes a better match
+Flattening instances of sky130_fd_pr__cap_mim_m3_2_W5U4AW in cell example_por makes a better match
 Flattening instances of sky130_fd_pr__nfet_g5v0d10v5_PKVMTM in cell example_por makes a better match
 Making another compare attempt.
+Class example_por:  Merged 6 devices.
 
 Subcircuit summary:
 Circuit 1: example_por                     |Circuit 2: example_por                     
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__cap_mim_m3_2_W5U4AW (1)      |(no matching element)                      
+sky130_fd_pr__cap_mim_m3_2 (1)             |sky130_fd_pr__cap_mim_m3_2 (1)             
 sky130_fd_sc_hvl__buf_8 (2)                |sky130_fd_sc_hvl__buf_8 (2)                
-sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ (1)    |(no matching element)                      
+sky130_fd_pr__pfet_g5v0d10v5 (7)           |sky130_fd_pr__pfet_g5v0d10v5 (8) **Mismatc 
 sky130_fd_pr__nfet_g5v0d10v5_TGFUGS (1)    |(no matching element)                      
 sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 (1) |(no matching element)                      
-sky130_fd_pr__pfet_g5v0d10v5_3YBPVB (4)    |(no matching element)                      
 sky130_fd_sc_hvl__schmittbuf_1 (1)         |sky130_fd_sc_hvl__schmittbuf_1 (1)         
-sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (8) **Mismatc 
+sky130_fd_pr__pfet_g5v0d10v5_YUHPXE (1)    |(no matching element)                      
 sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (3) **Mismatc 
-sky130_fd_pr__cap_mim_m3_1_WRT4AW (1)      |(no matching element)                      
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
 sky130_fd_pr__pfet_g5v0d10v5_YEUEBV (1)    |(no matching element)                      
 sky130_fd_sc_hvl__inv_8 (1)                |sky130_fd_sc_hvl__inv_8 (1)                
-c (21)                                     |(no matching element)                      
-(no matching element)                      |sky130_fd_pr__cap_mim_m3_1 (1)             
-(no matching element)                      |sky130_fd_pr__cap_mim_m3_2 (1)             
 (no matching element)                      |sky130_fd_pr__res_xhigh_po_0p69 (3)        
-Number of devices: 39 **Mismatch**         |Number of devices: 20 **Mismatch**         
+Number of devices: 19 **Mismatch**         |Number of devices: 20 **Mismatch**         
+Number of nets: 40 **Mismatch**            |Number of nets: 16 **Mismatch**            
+---------------------------------------------------------------------------------------
+Flattening instances of sky130_fd_pr__pfet_g5v0d10v5_YEUEBV in cell example_por makes a better match
+Making another compare attempt.
+Class example_por:  Merged 5 devices.
+
+Subcircuit summary:
+Circuit 1: example_por                     |Circuit 2: example_por                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_2 (1)             |sky130_fd_pr__cap_mim_m3_2 (1)             
+sky130_fd_sc_hvl__buf_8 (2)                |sky130_fd_sc_hvl__buf_8 (2)                
+sky130_fd_pr__pfet_g5v0d10v5 (9)           |sky130_fd_pr__pfet_g5v0d10v5 (8) **Mismatc 
+sky130_fd_pr__nfet_g5v0d10v5_TGFUGS (1)    |(no matching element)                      
+sky130_fd_pr__res_xhigh_po_0p69_S5N9F3 (1) |(no matching element)                      
+sky130_fd_sc_hvl__schmittbuf_1 (1)         |sky130_fd_sc_hvl__schmittbuf_1 (1)         
+sky130_fd_pr__pfet_g5v0d10v5_YUHPXE (1)    |(no matching element)                      
+sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (3) **Mismatc 
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+sky130_fd_sc_hvl__inv_8 (1)                |sky130_fd_sc_hvl__inv_8 (1)                
+(no matching element)                      |sky130_fd_pr__res_xhigh_po_0p69 (3)        
+Number of devices: 20                      |Number of devices: 20                      
 Number of nets: 40 **Mismatch**            |Number of nets: 16 **Mismatch**            
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: example_por                     |Circuit 2: example_por                     
 
 ---------------------------------------------------------------------------------------
-Net: porb_l                                |Net: net4                                  
-  sky130_fd_sc_hvl__buf_8/X = 1            |  sky130_fd_pr__res_xhigh_po_0p69/1 = 1    
-  c/top = 1                                |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
-                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+Net: m1_721_6815#                          |Net: net3                                  
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n7 |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_51 |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_13 |  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n2 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_80 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_35 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n5 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_57 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n7 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n3 |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n8 |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |                                           
                                            |                                           
-Net: sky130_fd_sc_hvl__schmittbuf_1_0/A    |Net: porb_h                                
-  sky130_fd_pr__cap_mim_m3_2_W5U4AW/m4_n31 |  sky130_fd_sc_hvl__buf_8/6 = 1            
-  sky130_fd_sc_hvl__schmittbuf_1/A = 1     |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_80 |                                           
-  sky130_fd_pr__cap_mim_m3_1_WRT4AW/c1_n30 |                                           
-  c/bottom = 1                             |                                           
-  c/top = 1                                |                                           
+Net: m1_185_6573#                          |Net: net7                                  
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
                                            |                                           
-Net: sky130_fd_sc_hvl__inv_8_0/A           |Net: net9                                  
-  sky130_fd_sc_hvl__buf_8/A = 2            |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
-  sky130_fd_sc_hvl__schmittbuf_1/X = 1     |  sky130_fd_pr__cap_mim_m3_2/2 = 1         
-  sky130_fd_sc_hvl__inv_8/A = 1            |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
-  c/top = 1                                |  sky130_fd_sc_hvl__schmittbuf_1/1 = 1     
-                                           |                                           
-Net: m1_185_6573#                          |Net: net3                                  
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n8 |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n1 |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
-  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       
-  c/top = 1                                |                                           
-  c/bottom = 1                             |                                           
-                                           |                                           
-Net: m1_2756_6573#                         |Net: net10                                 
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n8 |  sky130_fd_sc_hvl__buf_8/1 = 2            
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n1 |  sky130_fd_sc_hvl__inv_8/1 = 1            
-  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       |  sky130_fd_sc_hvl__schmittbuf_1/6 = 1     
-  c/bottom = 1                             |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: vdd1v8                                |Net: vdd1v8                                
-  sky130_fd_sc_hvl__buf_8/VPB = 1          |  sky130_fd_sc_hvl__buf_8/4 = 1            
-  sky130_fd_sc_hvl__buf_8/VPWR = 1         |  sky130_fd_sc_hvl__buf_8/5 = 1            
-  sky130_fd_sc_hvl__inv_8/VPB = 1          |  sky130_fd_sc_hvl__inv_8/4 = 1            
-  sky130_fd_sc_hvl__inv_8/VPWR = 1         |  sky130_fd_sc_hvl__inv_8/5 = 1            
-  c/bottom = 1                             |                                           
-  c/top = 1                                |                                           
+Net: m1_2756_6573#                         |Net: net2                                  
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/1 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
                                            |                                           
 Net: vss                                   |Net: vss                                   
-  sky130_fd_pr__cap_mim_m3_2_W5U4AW/c2_n30 |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
-  sky130_fd_pr__cap_mim_m3_2_W5U4AW/VSUBS  |  sky130_fd_pr__cap_mim_m3_2/1 = 1         
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+  sky130_fd_pr__cap_mim_m3_2/1 = 1         |  sky130_fd_pr__cap_mim_m3_2/1 = 1         
   sky130_fd_pr__nfet_g5v0d10v5/3 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/3 = 3       
   sky130_fd_pr__nfet_g5v0d10v5/4 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/4 = 3       
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/VSUB |  sky130_fd_pr__res_xhigh_po_0p69/3 = 3    
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_29 |  sky130_fd_pr__res_xhigh_po_0p69/1 = 2    
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_73 |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/w_n9 |  sky130_fd_sc_hvl__buf_8/2 = 2            
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n1 |  sky130_fd_sc_hvl__buf_8/3 = 2            
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n5 |  sky130_fd_sc_hvl__inv_8/2 = 1            
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_73 |  sky130_fd_pr__res_xhigh_po_0p69/3 = 3    
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/w_n9 |  sky130_fd_pr__res_xhigh_po_0p69/1 = 2    
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n1 |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n5 |  sky130_fd_sc_hvl__buf_8/2 = 2            
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__buf_8/3 = 2            
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__inv_8/2 = 1            
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__inv_8/3 = 1            
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__schmittbuf_1/2 = 1     
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/w |  sky130_fd_sc_hvl__schmittbuf_1/2 = 1     
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__schmittbuf_1/3 = 1     
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/w |                                           
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/VSUB |                                           
   sky130_fd_sc_hvl__schmittbuf_1/VGND = 1  |                                           
   sky130_fd_sc_hvl__schmittbuf_1/VNB = 1   |                                           
-  sky130_fd_sc_hvl__buf_8/VGND = 2         |                                           
+  sky130_fd_pr__pfet_g5v0d10v5_YUHPXE/VSUB |                                           
   sky130_fd_sc_hvl__buf_8/VNB = 2          |                                           
-  sky130_fd_pr__cap_mim_m3_1_WRT4AW/m3_n31 |                                           
-  sky130_fd_pr__cap_mim_m3_1_WRT4AW/VSUBS  |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/VSUB |                                           
+  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_29 |                                           
+  sky130_fd_sc_hvl__buf_8/VGND = 2         |                                           
   sky130_fd_sc_hvl__inv_8/VGND = 1         |                                           
   sky130_fd_sc_hvl__inv_8/VNB = 1          |                                           
-  c/bottom = 13                            |                                           
+                                           |                                           
+Net: vdd3v3                                |Net: vdd3v3                                
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 9       |  sky130_fd_pr__pfet_g5v0d10v5/4 = 8       
+  sky130_fd_pr__pfet_g5v0d10v5/1 = 2       |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 3       |  sky130_fd_pr__pfet_g5v0d10v5/3 = 4       
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_sc_hvl__buf_8/4 = 1            
+  sky130_fd_sc_hvl__schmittbuf_1/VPB = 1   |  sky130_fd_sc_hvl__buf_8/5 = 1            
+  sky130_fd_sc_hvl__schmittbuf_1/VPWR = 1  |  sky130_fd_sc_hvl__schmittbuf_1/4 = 1     
+  sky130_fd_pr__pfet_g5v0d10v5_YUHPXE/w_n3 |  sky130_fd_sc_hvl__schmittbuf_1/5 = 1     
+  sky130_fd_pr__pfet_g5v0d10v5_YUHPXE/a_n1 |                                           
+  sky130_fd_sc_hvl__buf_8/VPB = 1          |                                           
+  sky130_fd_sc_hvl__buf_8/VPWR = 1         |                                           
                                            |                                           
 Net: li_3322_5813#                         |(no matching net)                          
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
@@ -145,7 +156,27 @@ Net: li_1391_165#                          |(no matching net)
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
                                            |                                           
+Net: li_7567_165#                          |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
+Net: li_6023_165#                          |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
+Net: li_9111_165#                          |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
 Net: li_8726_5813#                         |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
+Net: li_6795_165#                          |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
+Net: li_3707_165#                          |(no matching net)                          
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
                                            |                                           
@@ -185,6 +216,10 @@ Net: li_4479_165#                          |(no matching net)
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
                                            |                                           
+Net: li_4866_5813#                         |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
+                                           |                                           
 Net: li_2163_165#                          |(no matching net)                          
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
@@ -210,192 +245,112 @@ Net: li_7182_5813#                         |(no matching net)
   sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
                                            |                                           
 Net: m1_2993_7658#                         |(no matching net)                          
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n1 |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |                                           
   sky130_fd_pr__pfet_g5v0d10v5/1 = 1       |                                           
                                            |                                           
 Net: m1_6249_7690#                         |(no matching net)                          
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_n1 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       |                                           
-                                           |                                           
-Net: vdd3v3                                |(no matching net)                          
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n9 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_40 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/w_n1 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_84 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n2 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n4 |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/w_n3 |                                           
-  sky130_fd_sc_hvl__schmittbuf_1/VPB = 1   |                                           
-  sky130_fd_sc_hvl__schmittbuf_1/VPWR = 1  |                                           
-  sky130_fd_pr__pfet_g5v0d10v5/3 = 2       |                                           
-  sky130_fd_pr__pfet_g5v0d10v5/4 = 2       |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n7 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_51 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_80 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n3 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/w_n9 |                                           
-  sky130_fd_sc_hvl__buf_8/VPB = 1          |                                           
-  sky130_fd_sc_hvl__buf_8/VPWR = 1         |                                           
-  c/bottom = 4                             |                                           
-  c/top = 2                                |                                           
-                                           |                                           
-Net: m1_721_6815#                          |(no matching net)                          
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n7 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_51 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_13 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n2 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_80 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_35 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n5 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_57 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n7 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n3 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5_TGFUGS/a_n8 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_80 |                                           
-  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_7567_165#                          |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_6023_165#                          |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_9111_165#                          |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_6795_165#                          |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_3707_165#                          |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: li_2550_5813#                         |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |                                           
-                                           |                                           
-Net: li_4866_5813#                         |(no matching net)                          
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |                                           
-  c/top = 1                                |                                           
-                                           |                                           
-Net: m1_4283_8081#                         |(no matching net)                          
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_80 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_13 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n2 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_29 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_35 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n5 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_57 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n7 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_73 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n8 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n1 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_YEUEBV/a_n5 |                                           
-  c/top = 3                                |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5_YUHPXE/a_80 |                                           
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
-Net: m1_502_7653#                          |Net: vdd3v3                                
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n6 |  sky130_fd_pr__pfet_g5v0d10v5/4 = 8       
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n1 |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_29 |  sky130_fd_pr__pfet_g5v0d10v5/3 = 4       
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_18 |  sky130_fd_sc_hvl__buf_8/4 = 1            
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_24 |  sky130_fd_sc_hvl__buf_8/5 = 1            
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n4 |  sky130_fd_sc_hvl__schmittbuf_1/4 = 1     
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_46 |  sky130_fd_sc_hvl__schmittbuf_1/5 = 1     
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n6 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_68 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_62 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n8 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ/a_n2 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5_3YBPVB/a_80 |                                           
-  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |                                           
-  c/top = 3                                |                                           
+(no matching net)                          |Net: net8                                  
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       
+                                           |                                           
+(no matching net)                          |Net: net5                                  
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: sky130_fd_sc_hvl__schmittbuf_1_0/A    |Net: net9                                  
+  sky130_fd_pr__cap_mim_m3_2/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+  sky130_fd_sc_hvl__schmittbuf_1/A = 1     |  sky130_fd_pr__cap_mim_m3_2/2 = 1         
+  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/1 = 1       
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |  sky130_fd_sc_hvl__schmittbuf_1/1 = 1     
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: li_2550_5813#                         |Net: net4                                  
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_pr__res_xhigh_po_0p69/1 = 1    
+  sky130_fd_pr__res_xhigh_po_0p69_S5N9F3/a |  sky130_fd_pr__res_xhigh_po_0p69/2 = 1    
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: m1_4283_8081#                         |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/1 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5_YUHPXE/a_n8 |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |                                           
+                                           |                                           
+Net: m1_502_7653#                          |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/1 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 3       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/3 = 1       |                                           
 ---------------------------------------------------------------------------------------
 DEVICE mismatches: Class fragments follow (with node fanout counts):
 Circuit 1: example_por                     |Circuit 2: example_por                     
 
 ---------------------------------------------------------------------------------------
-Instance: sky130_fd_pr__cap_mim_m3_2_W5U4A |Instance: sky130_fd_pr__nfet_g5v0d10v5M5   
-  c2_n3079_n3000# = 46                     |  1 = 4                                    
-  m4_n3179_n3100# = 6                      |  2 = 4                                    
-  VSUBS = 46                               |  3 = 22                                   
-                                           |  4 = 22                                   
+Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |Instance: sky130_fd_pr__pfet_g5v0d10v5M1   
+  1 = 13                                   |  1 = 4                                    
+  2 = 4                                    |  2 = 4                                    
+  3 = 2                                    |  3 = 2                                    
+  4 = 21                                   |  4 = 17                                   
                                            |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_ZEU |Instance: sky130_fd_pr__cap_mim_m3_1C1     
-  a_n683_n200# = 17                        |  1 = 4                                    
-  a_n189_n297# = 17                        |  2 = 22                                   
-  a_29_n297# = 17                          |                                           
-  a_189_n200# = 17                         |                                           
-  a_n901_n200# = 30                        |                                           
-  a_247_n297# = 17                         |                                           
-  a_n407_n297# = 17                        |                                           
-  a_465_n297# = 17                         |                                           
-  a_407_n200# = 30                         |                                           
-  a_n625_n297# = 17                        |                                           
-  a_683_n297# = 17                         |                                           
-  a_625_n200# = 17                         |                                           
-  a_n843_n297# = 17                        |                                           
-  w_n1101_n497# = 30                       |                                           
-  a_843_n200# = 30                         |                                           
-  a_n29_n200# = 30                         |                                           
-  a_n247_n200# = 17                        |                                           
-  a_n465_n200# = 30                        |                                           
-  VSUBS = 46                               |                                           
+Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |Instance: sky130_fd_pr__pfet_g5v0d10v5M13  
+  1 = 4                                    |  1 = 4                                    
+  2 = 4                                    |  2 = 4                                    
+  3 = 2                                    |  3 = 2                                    
+  4 = 21                                   |  4 = 17                                   
                                            |                                           
-Instance: sky130_fd_pr__nfet_g5v0d10v5_TGF |Instance: sky130_fd_pr__cap_mim_m3_2C2     
-  a_n792_n200# = 14                        |  1 = 22                                   
-  a_298_n200# = 46                         |  2 = 4                                    
-  a_516_n200# = 14                         |                                           
-  a_734_n200# = 46                         |                                           
-  w_n962_n458# = 46                        |                                           
-  a_138_n288# = 14                         |                                           
-  a_n298_n288# = 14                        |                                           
-  a_80_n200# = 14                          |                                           
-  a_356_n288# = 14                         |                                           
-  a_n516_n288# = 14                        |                                           
-  a_574_n288# = 14                         |                                           
-  a_n734_n288# = 14                        |                                           
-  a_n138_n200# = 46                        |                                           
-  a_n356_n200# = 14                        |                                           
-  a_n574_n200# = 46                        |                                           
-  a_n80_n288# = 14                         |                                           
+Instance: sky130_fd_pr__pfet_g5v0d10v5_YUH |Instance: sky130_fd_pr__nfet_g5v0d10v5M2   
+  1 = 2                                    |  1 = 4                                    
+  2 = 6                                    |  2 = 4                                    
+  3 = 21                                   |  3 = 22                                   
+  4 = 21                                   |  4 = 22                                   
+                                           |                                           
+Instance: sky130_fd_pr__nfet_g5v0d10v5_TGF |Instance: sky130_fd_pr__nfet_g5v0d10v5M5   
+  a_n792_n200# = 13                        |  1 = 4                                    
+  a_298_n200# = 26                         |  2 = 4                                    
+  a_516_n200# = 13                         |  3 = 22                                   
+  a_734_n200# = 26                         |  4 = 22                                   
+  w_n962_n458# = 26                        |                                           
+  a_138_n288# = 13                         |                                           
+  a_n298_n288# = 13                        |                                           
+  a_80_n200# = 13                          |                                           
+  a_356_n288# = 13                         |                                           
+  a_n516_n288# = 13                        |                                           
+  a_574_n288# = 13                         |                                           
+  a_n734_n288# = 13                        |                                           
+  a_n138_n200# = 26                        |                                           
+  a_n356_n200# = 13                        |                                           
+  a_n574_n200# = 26                        |                                           
+  a_n80_n288# = 13                         |                                           
                                            |                                           
 Instance: sky130_fd_pr__res_xhigh_po_0p69_ |Instance: sky130_fd_pr__res_xhigh_po_0p69R 
   a_n1806_2500# = 2                        |  1 = 3                                    
   a_n4122_n2932# = 2                       |  2 = 17                                   
-  a_n5280_2500# = 46                       |  3 = 22                                   
-  a_2054_n2932# = 3                        |                                           
-  a_896_n2932# = 3                         |                                           
-  a_4756_2500# = 30                        |                                           
-  a_3598_n2932# = 3                        |                                           
+  a_n5280_2500# = 26                       |  3 = 22                                   
+  a_2054_n2932# = 2                        |                                           
+  a_896_n2932# = 2                         |                                           
+  a_4756_2500# = 21                        |                                           
+  a_3598_n2932# = 2                        |                                           
   a_3212_2500# = 2                         |                                           
   a_n3736_n2932# = 2                       |                                           
-  a_1668_n2932# = 3                        |                                           
-  a_n1806_n2932# = 3                       |                                           
-  a_5142_n2932# = 46                       |                                           
+  a_1668_n2932# = 2                        |                                           
+  a_n1806_n2932# = 2                       |                                           
+  a_5142_n2932# = 26                       |                                           
   a_896_2500# = 2                          |                                           
-  a_510_n2932# = 3                         |                                           
+  a_510_n2932# = 2                         |                                           
   a_n3350_2500# = 2                        |                                           
   a_n4508_2500# = 2                        |                                           
   a_3212_n2932# = 2                        |                                           
-  a_n4894_2500# = 46                       |                                           
+  a_n4894_2500# = 26                       |                                           
   a_1282_2500# = 2                         |                                           
-  w_n5446_n3098# = 46                      |                                           
+  w_n5446_n3098# = 26                      |                                           
   a_4756_n2932# = 2                        |                                           
   a_2826_2500# = 2                         |                                           
   a_2826_n2932# = 2                        |                                           
@@ -405,13 +360,13 @@ Instance: sky130_fd_pr__res_xhigh_po_0p69_ |Instance: sky130_fd_pr__res_xhigh_po
   a_n1420_2500# = 2                        |                                           
   a_n2964_2500# = 3                        |                                           
   a_n648_n2932# = 2                        |                                           
-  a_n648_2500# = 3                         |                                           
-  a_n5280_n2932# = 46                      |                                           
+  a_n648_2500# = 2                         |                                           
+  a_n5280_n2932# = 26                      |                                           
   a_n3350_n2932# = 2                       |                                           
   a_4370_2500# = 2                         |                                           
-  a_1282_n2932# = 3                        |                                           
+  a_1282_n2932# = 2                        |                                           
   a_124_n2932# = 2                         |                                           
-  a_n1420_n2932# = 3                       |                                           
+  a_n1420_n2932# = 2                       |                                           
   a_n4894_n2932# = 2                       |                                           
   a_124_2500# = 2                          |                                           
   a_n2964_n2932# = 2                       |                                           
@@ -422,197 +377,30 @@ Instance: sky130_fd_pr__res_xhigh_po_0p69_ |Instance: sky130_fd_pr__res_xhigh_po
   a_4370_n2932# = 2                        |                                           
   a_3598_2500# = 2                         |                                           
   a_3984_2500# = 2                         |                                           
-  a_2440_n2932# = 3                        |                                           
+  a_2440_n2932# = 2                        |                                           
   a_2440_2500# = 2                         |                                           
-  a_3984_n2932# = 3                        |                                           
+  a_3984_n2932# = 2                        |                                           
   a_n2192_2500# = 2                        |                                           
   a_n3736_2500# = 2                        |                                           
   a_1668_2500# = 2                         |                                           
   a_n262_n2932# = 2                        |                                           
-  a_n262_2500# = 3                         |                                           
+  a_n262_2500# = 2                         |                                           
   a_n1034_n2932# = 2                       |                                           
-  a_5142_2500# = 46                        |                                           
+  a_5142_2500# = 26                        |                                           
   a_n2578_n2932# = 2                       |                                           
                                            |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |(no matching instance)                     
-  a_n80_n297# = 6                          |                                           
-  a_80_n200# = 14                          |                                           
-  w_n338_n497# = 30                        |                                           
-  a_n138_n200# = 2                         |                                           
-  VSUBS = 46                               |                                           
+Instance: sky130_fd_pr__pfet_g5v0d10v5_YUH |Instance: sky130_fd_pr__res_xhigh_po_0p69R 
+  a_n80_n297# = 6                          |  1 = 22                                   
+  a_80_n200# = 2                           |  2 = 3                                    
+  w_n338_n497# = 21                        |  3 = 22                                   
+  a_n138_n200# = 21                        |                                           
+  VSUBS = 26                               |                                           
                                            |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |(no matching instance)                     
-  a_n80_n297# = 6                          |                                           
-  a_80_n200# = 16                          |                                           
-  w_n338_n497# = 30                        |                                           
-  a_n138_n200# = 6                         |                                           
-  VSUBS = 46                               |                                           
-                                           |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |(no matching instance)                     
-  a_n80_n297# = 6                          |                                           
-  a_80_n200# = 6                           |                                           
-  w_n338_n497# = 30                        |                                           
-  a_n138_n200# = 2                         |                                           
-  VSUBS = 46                               |                                           
-                                           |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_3YB |(no matching instance)                     
-  a_n80_n297# = 6                          |                                           
-  a_80_n200# = 17                          |                                           
-  w_n338_n497# = 30                        |                                           
-  a_n138_n200# = 6                         |                                           
-  VSUBS = 46                               |                                           
-                                           |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_YUH |(no matching instance)                     
-  1 = 2                                    |                                           
-  2 = 16                                   |                                           
-  3 = 30                                   |                                           
-  4 = 30                                   |                                           
-                                           |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_YUH |(no matching instance)                     
-  1 = 2                                    |                                           
-  2 = 17                                   |                                           
-  3 = 30                                   |                                           
-  4 = 30                                   |                                           
-                                           |                                           
-Instance: sky130_fd_pr__nfet_g5v0d10v5_PKV |(no matching instance)                     
-  1 = 6                                    |                                           
-  2 = 14                                   |                                           
-  3 = 46                                   |                                           
-  4 = 46                                   |                                           
-                                           |                                           
-Instance: sky130_fd_pr__nfet_g5v0d10v5_ZK8 |(no matching instance)                     
-  1 = 6                                    |                                           
-  2 = 3                                    |                                           
-  3 = 46                                   |                                           
-  4 = 46                                   |                                           
-                                           |                                           
-Instance: sky130_fd_pr__cap_mim_m3_1_WRT4A |(no matching instance)                     
-  c1_n3036_n3000# = 6                      |                                           
-  m3_n3136_n3100# = 46                     |                                           
-  VSUBS = 46                               |                                           
-                                           |                                           
-Instance: sky130_fd_pr__pfet_g5v0d10v5_YEU |(no matching instance)                     
-  a_n792_n200# = 30                        |                                           
-  a_138_n297# = 16                         |                                           
-  a_n298_n297# = 16                        |                                           
-  a_298_n200# = 16                         |                                           
-  a_356_n297# = 16                         |                                           
-  a_n516_n297# = 16                        |                                           
-  a_574_n297# = 16                         |                                           
-  a_516_n200# = 30                         |                                           
-  a_n734_n297# = 16                        |                                           
-  a_734_n200# = 16                         |                                           
-  a_n80_n297# = 16                         |                                           
-  a_80_n200# = 30                          |                                           
-  a_n138_n200# = 16                        |                                           
-  a_n356_n200# = 30                        |                                           
-  a_n574_n200# = 16                        |                                           
-  w_n992_n497# = 30                        |                                           
-  VSUBS = 46                               |                                           
-                                           |                                           
-Instance: c0                               |(no matching instance)                     
-  top = 16                                 |                                           
-  bottom = 6                               |                                           
-                                           |                                           
-Instance: c1                               |(no matching instance)                     
-  top = 16                                 |                                           
-  bottom = 30                              |                                           
-                                           |                                           
-Instance: c2                               |(no matching instance)                     
-  top = 2                                  |                                           
-  bottom = 6                               |                                           
-                                           |                                           
-Instance: c3                               |(no matching instance)                     
-  top = 6                                  |                                           
-  bottom = 30                              |                                           
-                                           |                                           
-Instance: c4                               |(no matching instance)                     
-  top = 6                                  |                                           
-  bottom = 30                              |                                           
-                                           |                                           
-Instance: c5                               |(no matching instance)                     
-  top = 30                                 |                                           
-  bottom = 6                               |                                           
-                                           |                                           
-Instance: c8                               |(no matching instance)                     
-  top = 5                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c9                               |(no matching instance)                     
-  top = 16                                 |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c10                              |(no matching instance)                     
-  top = 6                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c12                              |(no matching instance)                     
-  top = 30                                 |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c13                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c14                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c15                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c16                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c17                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c18                              |(no matching instance)                     
-  top = 3                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c19                              |(no matching instance)                     
-  top = 14                                 |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c20                              |(no matching instance)                     
-  top = 6                                  |                                           
-  bottom = 46                              |                                           
-                                           |                                           
-Instance: c6                               |(no matching instance)                     
-  top = 17                                 |                                           
-  bottom = 6                               |                                           
-                                           |                                           
-Instance: c7                               |(no matching instance)                     
-  top = 17                                 |                                           
-  bottom = 30                              |                                           
-                                           |                                           
-Instance: c11                              |(no matching instance)                     
-  top = 17                                 |                                           
-  bottom = 46                              |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_fd_sc_hvl__schmittbuf_1_0 |Instance: sky130_fd_sc_hvl__schmittbuf_15  
-  A = 6                                    |  1 = 4                                    
-  VGND = 46                                |  2 = 22                                   
-  VNB = 46                                 |  3 = 22                                   
-  VPB = 30                                 |  4 = 17                                   
-  VPWR = 30                                |  5 = 17                                   
-  X = 5                                    |  6 = 4                                    
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_fd_sc_hvl__buf_8_1        |Instance: sky130_fd_sc_hvl__buf_82         
-  A = 5                                    |  1 = 4                                    
-  VGND = 46                                |  2 = 22                                   
-  VNB = 46                                 |  3 = 22                                   
-  VPB = 6                                  |  4 = 17                                   
-  VPWR = 6                                 |  5 = 17                                   
-  X = 2                                    |  6 = 1                                    
+Instance: sky130_fd_pr__nfet_g5v0d10v5_PKV |Instance: sky130_fd_pr__res_xhigh_po_0p69R 
+  1 = 4                                    |  1 = 22                                   
+  2 = 13                                   |  2 = 22                                   
+  3 = 26                                   |  3 = 22                                   
+  4 = 26                                   |                                           
 ---------------------------------------------------------------------------------------
 Netlists do not match.
   Flattening non-matched subcircuits example_por example_porEquate elements:  no current cell.
