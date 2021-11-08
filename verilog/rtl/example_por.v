@@ -52,7 +52,7 @@ module example_por(
 	#500 inode <= 1'b0;
     end
 
-    // Instantiate two shmitt trigger buffers in series
+    // Instantiate two schmitt trigger buffers in series
 
     sky130_fd_sc_hvl__schmittbuf_1 hystbuf1 (
 `ifdef USE_POWER_PINS
